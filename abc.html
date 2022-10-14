@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+       <head>
+        <meta charser="USF-8">
+        <title>hello world</title>
+        </head>
+        <style>
+            body{
+    margin: auto;
+    padding:  0px;
+    display: flex;
+    justify-content: center;
+}
+div.main{
+    background-color: rgb(112, 97, 97);
+    border : 1px solid;
+    width: 50%;
+    height: 300px;
+    padding: 25px;
+    margin-top: 100px;
+    font-size: 7pt;
+    border:solid red;
+    border-radius: 10px;
+}
+
+div.main2{
+    background-color: rgb(112, 97, 97);
+    border : 1px solid;
+    width: 50%;
+    height: 300px;
+    padding: 25px;
+    margin-top: 100px;
+    font-size: 7pt;
+    border:solid red;
+    border-radius: 10px;
+    display: none;
+}
+
+button{
+    margin:20px;
+}
+        </style>
+                <body id="body">
+
+                    <div id="main2" class="main2" style="text-align: center;">
+<h1 style="border: yellow; background-color: yellowgreen; border-radius: 2p;"> გილოცავ, შენ გაიმარჯვე</h1>
+                    </div>
+
+
+        <div id="main" class="main" style="text-align: center;">
+
+            <h1>დაალაგე ანბანი</h1>
+
+<hr>
+
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;" id="bu22" onclick="ქ()">ქ</button>
+
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu29" onclick="წ()">წ</button>
+
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu30" onclick="ჭ()">ჭ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu5" onclick="e()">ე</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu17" onclick="რ()">რ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu23" onclick="ღ()">ღ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu19" onclick="ტ()">ტ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu8" onclick="t()">თ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu24"onclick="ყ()">ყ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu20" onclick="უ()">უ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu9" onclick="i()">ი</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu14" onclick="o()">ო</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu15" onclick="p()">პ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu1" onclick="a()" >ა</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu18" onclick="ს()">ს</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu25" onclick="შ()">შ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu4" onclick="d()">დ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu21" onclick="ფ()">ფ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu3" onclick="g()">გ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu33" onclick="ჰ()">ჰ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu32" onclick="ჯ()">ჯ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu16" onclick="ჟ()">ჟ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu10" onclick="k()">კ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu11" onclick="l()">ლ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu7" onclick="z()">ზ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu28" onclick="ძ()">ძ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu31" onclick="ხ()">ხ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu27" onclick="ც()">ც</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu26" onclick="ჩ()">ჩ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu6" onclick="v()">ვ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu2" onclick="b()">ბ</button>
+  
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu13" onclick="n()">ნ</button>
+
+<button style="border:  solid cyan; border-radius: 20px; background: cyan;"id="bu12" onclick="m()">მ</button>
+  
+            
+        </div>
+
+
+
+        <script>
+function sleep(ms){
+   return new Promise(resolve => setTimeout(resolve,ms));
+}
+
+           async function a(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu1");
+
+                for(let k=2; k<=33; k++){
+                    let u=document.getElementById("bu"+k);
+                    if(u.style.display=="none"){
+                        bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+                break;
+                    }else{
+                    
+                
+                
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                break;
+                    }
+        }
+}
+
+            async function b(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu2");
+                let bu1=document.getElementById("bu1");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function g(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu3");
+                let bu1=document.getElementById("bu2");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+     
+        async function d(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu4");
+                let bu1=document.getElementById("bu3");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+    
+        async function e(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu5");
+                let bu1=document.getElementById("bu4");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function v(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu6");
+                let bu1=document.getElementById("bu5");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function z(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu7");
+                let bu1=document.getElementById("bu6");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function t(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu8");
+                let bu1=document.getElementById("bu7");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function i(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu9");
+                let bu1=document.getElementById("bu8");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function k(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu10");
+                let bu1=document.getElementById("bu9");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function l(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu11");
+                let bu1=document.getElementById("bu10");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function m(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu12");
+                let bu1=document.getElementById("bu11");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function n(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu13");
+                let bu1=document.getElementById("bu12");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function o(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu14");
+                let bu1=document.getElementById("bu13");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function p(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu15");
+                let bu1=document.getElementById("bu14");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ჟ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu16");
+                let bu1=document.getElementById("bu15");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function რ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu17");
+                let bu1=document.getElementById("bu16");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ს(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu18");
+                let bu1=document.getElementById("bu17");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ტ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu19");
+                let bu1=document.getElementById("bu18");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function უ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu20");
+                let bu1=document.getElementById("bu19");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ფ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu21");
+                let bu1=document.getElementById("bu20");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ქ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu22");
+                let bu1=document.getElementById("bu21");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ღ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu23");
+                let bu1=document.getElementById("bu22");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ყ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu24");
+                let bu1=document.getElementById("bu23");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function შ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu25");
+                let bu1=document.getElementById("bu24");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ჩ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu26");
+                let bu1=document.getElementById("bu25");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ც(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu27");
+                let bu1=document.getElementById("bu26");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ძ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu28");
+                let bu1=document.getElementById("bu27");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+        async function წ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu29");
+                let bu1=document.getElementById("bu28");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ჭ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu30");
+                let bu1=document.getElementById("bu29");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ხ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu31");
+                let bu1=document.getElementById("bu30");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+        async function ჯ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu32");
+                let bu1=document.getElementById("bu31");
+                let main=document.getElementById("main");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+
+        async function ჰ(){
+                let body=document.getElementById("body");
+                let bu=document.getElementById("bu33");
+                let bu1=document.getElementById("bu32");
+                let main=document.getElementById("main");
+                let main2=document.getElementById("main2");
+                if(bu1.style.display=="none"){
+                    bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="green";
+               await sleep(1000);
+                bu.style.display="none";
+                body.style.backgroundColor="white";
+                main.style.display="none";
+                main2.style.display="block";
+                }else{
+                bu.style.backgroundColor="yellow";
+                body.style.backgroundColor="red";
+               await sleep(1000);
+                main.style.display="none";
+            }
+        }
+            </script>
+                </body>
+
+</html>
